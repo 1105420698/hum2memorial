@@ -24,7 +24,7 @@ export default function Nav({ onMenuToggle = () => {} }) {
               }}
               to="/TheEnslavedPeople"
             >
-              The Enslaved People
+              The People of Haiti
             </Link>
           </li>
           <li>
@@ -35,6 +35,16 @@ export default function Nav({ onMenuToggle = () => {} }) {
               to="/Bibliography"
             >
               Bibliography
+            </Link>
+          </li>
+          <li>
+            <Link
+              onClick={e => {
+                onMenuToggle();
+              }}
+              to="/Statement"
+            >
+              Statement
             </Link>
           </li>
         </ul>

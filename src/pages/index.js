@@ -86,7 +86,7 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">The Enslaved People</h3>
+              <h3 className="major">The Enslaved People of Haiti</h3>
               <p>
                 Many people were enslaved during European colonialism in the Americas. This includes millions of Africans and many of the natives in North and South America.
               </p>
