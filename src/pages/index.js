@@ -2,13 +2,11 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import pic1 from '../assets/images/pic01.jpg';
+import pic1 from '../assets/images/pic01.jpeg';
 import pic2 from '../assets/images/pic02.jpg';
 import pic3 from '../assets/images/pic03.jpg';
 import pic4 from '../assets/images/pic04.jpg';
 import pic5 from '../assets/images/pic05.jpg';
-import pic6 from '../assets/images/pic06.jpg';
-import pic7 from '../assets/images/pic07.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -16,7 +14,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <span className="icon fa-diamond"></span>
+          <span className="icon fa-pencil"></span>
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -30,17 +28,12 @@ const IndexPage = () => (
             <img src={pic1} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Magna arcu feugiat</h2>
+            <h2 className="major">What is racial slavery?</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              <b>Racial slavery</b> had such an impact on our society because it was different from the traditional model of slavery commonly used by Europeans at the time.{' '}
+              Slavery before <b>racial slavery</b> is often referred to as ancient slavery, resulted from religion, class status, being captured from a war, or in the form of debt peonage.{' '}
+              <b>Racial slavery</b> did not have any of the poltical or economical foundation of ancient slavery, it was simply based on the color of ones skin.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
           </div>
         </div>
       </section>
@@ -51,17 +44,19 @@ const IndexPage = () => (
             <img src={pic2} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Tempus adipiscing</h2>
+            <h2 className="major">This is a memorial</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
+            <blockquote>
+              noun <br />
+              1. something designed to preserve the memory of a person, event, etc., as a monument or a holiday.<br />
+              2. a written statement of facts presented to a sovereign, a legislative body, etc., as the ground of, or expressed in the form of, a petition or remonstrance.<br />
+              - Definition of "Memorial"
+            </blockquote>
+            <p>
+              This website is a memorial to share the history of racial slavery and its lasting effects on society today with modern audiences. It is important that we do not forget our past so that we are equipped to understand the root of racism and social injustice.
+            </p>
           </div>
         </div>
       </section>
@@ -72,41 +67,30 @@ const IndexPage = () => (
             <img src={pic3} alt="" />
           </a>
           <div className="content">
-            <h2 className="major">Nullam dignissim</h2>
+            <h2 className="major">The message</h2>
             <p>
-              Lorem ipsum dolor sit amet, etiam lorem adipiscing elit. Cras
-              turpis ante, nullam sit amet turpis non, sollicitudin posuere
-              urna. Mauris id tellus arcu. Nunc vehicula id nulla dignissim
-              dapibus. Nullam ultrices, neque et faucibus viverra, ex nulla
-              cursus.
+              To fight racism and other issues of our modern world, we must look back to when the seeds of those issues were planted. Only through understanding the context of those eras, we may allow ourselves to be more confident in the understanding of modern issues. It is true that we cannot change our past, but we have the choice to not forget it and use its knowledge to make our society better today.
             </p>
-            <a href="/#" className="special">
-              Learn more
-            </a>
           </div>
         </div>
       </section>
 
       <section id="four" className="wrapper alt style1">
         <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
+          <h2 className="major">Who are being remembered through this memorial?</h2>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            Racial slavery affected many parts of the world and severely impacted the lives of many indigenous people under colonial Europe. When colonizers invaded these spaces, they often disrupted Indigenous worldviews that included geographic knowledge as well as spiritual and cultural beliefs that explained the world around them.
           </p>
           <section className="features">
             <article>
               <a href="/#" className="image">
                 <img src={pic4} alt="" />
               </a>
-              <h3 className="major">Sed feugiat lorem</h3>
+              <h3 className="major">The Enslaved People</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Many people were enslaved during European colonialism in the Americas. This includes millions of Africans and many of the natives in North and South America.
               </p>
-              <a href="/#" className="special">
+              <a href="/TheEnslavedPeople" className="special">
                 Learn more
               </a>
             </article>
@@ -114,49 +98,12 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={pic5} alt="" />
               </a>
-              <h3 className="major">Nisl placerat</h3>
+              <h3 className="major">Indigenous Culture</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Many indigenous people that lived in the Americas during European colonialism experienced cultural violence. Often times the European settlers attempted to suppress their religion, food, family formation, and their right to land.
               </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
             </article>
           </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>
         </div>
       </section>
     </section>
